@@ -1180,4 +1180,17 @@ background-attachment: fixed;
     background-repeat: no-repeat;
   }
 
- 
+  /* Active/Accordion Header */
+.accordion-button:not(.collapsed) {
+    background-image: url('/images/bg-footer1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFCB57;
+}
+
+.qn {
+    font-weight: 500;
+    font-size: 20px;
+    color: #092032;
+}
